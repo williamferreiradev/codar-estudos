@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+button{
+    cursor: pointer;
+}

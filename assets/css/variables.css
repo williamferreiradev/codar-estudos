@@ -1,0 +1,9 @@
+
+:root{
+    --primary: #E31766;
+    --tw-gradient-from: #fff762;
+    --tw-gradient-to: rgba(255,247,98,0);
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: #62ff8e;
+    --tw-text-opacity: 1;
+}

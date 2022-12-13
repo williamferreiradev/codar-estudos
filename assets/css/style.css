@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #18161f;
+    font-family: 'Noto sans', sans-serif;
+}
+.home{
+    background-image: url(../img/aurora.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header {
+    width: 100%;     
+    align-items: center;
+    border-bottom: 1px solid grey;   
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 3.4rem;
+}
+
+.login{
+    margin-right: 12rem;
+}
+
+.header .menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;       
+    gap: 1.5rem;
+}
+
+.header .menu .login {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.header .menu li .login i{
+    margin-right: 1.5rem;
+}
+
+.welcome{
+    background-color: #59e88133;
+    padding: 1rem 1rem;
+    width: 150px;
+    margin-bottom: 0.5rem;
+    border-radius: 90px;
+    text-align: center;    
+}
+
+
+.welcome p{    
+    color: #59e881;
+    font-size: 1.1rem;
+}
+
+.content-home{
+    display: flex;
+    margin-top: 5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text{
+    width: 50%;
+}
+.text span{
+  background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content-home .text a{
+    padding: 1.7rem 2.5rem;
+    font-size: 1.6rem;
+    background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
+    display: inline-block;
+    margin-top: 3rem;
+    color: black;
+    border-radius: 10px;
+}
+
+.content-home .text .phome{
+    margin-top: 2.5rem;
+    font-weight: 300;
+    font-size: 2rem;
+    width: 90%;
+}
+
+.img{
+    width: 40%;
+}
+
+.img img{
+    width: 300px;
+    margin-left: 7rem;
+}
+
+.courses{
+    margin-top: 12rem;
+}
+
+.courses h2{
+    max-width: 640px;
+    margin-bottom: 9rem;
+    margin-left: 1.1rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card{
+    width: 28%;
+    border: 1px solid rgba(255, 255, 255, 0.041);
+    padding: 24px;
+    border-radius: 20px;
+    margin-top: 1rem;
+    text-align: start;
+    margin-left: 1.1rem;
+}
+
+.card h3{
+    font-size: 3rem;
+}
+
+.card p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.card .justify{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.card .btn{
+    color: white;
+    border: 1px solid white;
+    width: 40%;
+    border-radius: 11px;
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+
+.icon i{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.transform{
+    margin-top: 12rem;
+}
+
+.transform  h1{
+    font-size: 4rem;
+    text-align: center;
+    width: 90%;   
+}
+
+.transform h1 span{    
+  background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards-info{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.info{
+    width: 30%;
+    border: 1px solid rgb(39, 39, 39);
+    background-color: #18161f;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow:  white;
+}
+
+.info h2{
+  background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.discord{
+    background-image: url(../img/discord-users.png);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    width: 100%;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discord h1{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+
+.discord .text .btn-discord{
+    display: inline-block;
+    margin-top: 4rem;
+    font-size: 1.75rem;
+    background-color: #18161f;
+    padding: 1.5rem 2.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 5rem;
+    border-radius: 0.75rem;
+    transition: all 0.3s ease;
+}
+.discord .text .btn-discord:hover{
+    background-color: rgba(59,130,246,.5);
+}
+
+.discord .text .btn-discord i{
+    margin-right: 1rem;
+}
+
+
+
+.footer{
+    padding-top: 5em;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 9.4rem;
+}
+
+.footer h3, .footer a {
+    color: white;
+
+}
+
+.footer h2{
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer ul{
+    padding: 0;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer-box {
+    width: 21%;
+    padding: 1%;
+    float: left;
+}
+
+.footer .wrapper::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+
+.logo-footer{
+    width: 80%;
+}
+
+.logo-footer h3{
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+
+.sociais i{
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+.footer-list{
+    margin-top: 1rem;
+}
+
+.footer-box h3{
+    font-size: 2rem;
+}
+
+.footer-bottom{
+    margin-top: 4rem;
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+}
